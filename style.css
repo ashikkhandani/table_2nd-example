@@ -1,0 +1,55 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  border: 2px solid red;
+  width: 58vw;
+  margin: 50px auto;
+}
+table {
+  /* border-collapse: collapse; */
+  margin: 10px auto;
+  padding: 10px auto;
+  width: 55vw;
+  height: 250px;
+  caption-side: top;
+}
+caption {
+  font-weight: 700;
+  font-size: 1.5rem;
+  background-color: orange;
+  color: red;
+  line-height: 50px;
+  margin-bottom: 5px;
+  height: 50px;
+}
+th,
+td {
+  border: 1px solid black;
+  padding: 7px;
+}
+th {
+  background-color: olivedrab;
+}
+
+tr {
+  background-color: rgb(250, 250, 108);
+}
+td {
+  color: orangered;
+  font-weight: bold;
+  font-style: italic;
+}
+tfoot tr > td {
+  background-color: lightblue;
+  color: black;
+  text-align: center;
+  height: 50px;
+  font-size: 1.4rem;
+  font-weight: 600;
+}

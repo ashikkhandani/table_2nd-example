@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Html Table 2</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <table>
+      <caption>
+        Name List
+      </caption>
+      <thead>
+        <tr>
+          <th>FirstName</th>
+          <th>LastName</th>
+          <th>Age</th>
+          <th>Telephone</th>
+          <th>Address-1</th>
+          <th>Address-2</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td rowspan="2">Jill</td>
+          <td rowspan="2">Smith</td>
+          <td rowspan="2">50</td>
+          <td>+49 55577543</td>
+          <td rowspan="2">Lorem ipsum dolor sit amet.</td>
+          <td rowspan="2">Lorem, ipsum dolor</td>
+        </tr>
+        <tr>
+          <td>+49 55575489</td>
+        </tr>
+        <tr>
+          <td>Eve</td>
+          <td>Doe</td>
+          <td>25</td>
+          <td>+49 555775456</td>
+          <td colspan="6">Lorem ipsum dolor sit amet consectetur.</td>
+        </tr>
+        <tr>
+          <td>John</td>
+          <td>Doe</td>
+          <td>30</td>
+          <td>+49 555775434</td>
+          <td colspan="6">Lorem ipsum dolor sit.</td>
+        </tr>
+        <tr>
+          <td rowspan="2">Mike</td>
+          <td rowspan="2">Smith</td>
+          <td rowspan="2">44</td>
+          <td>+49 55587894</td>
+          <td rowspan="2">Lorem ipsum dolor sit</td>
+          <td rowspan="2">Lorem ipsum dolor sit amet consectetur</td>
+        </tr>
+        <tr>
+          <td>+49 55589474</td>
+        </tr>
+      </tbody>
+      <tfoot>
+        <tr class="tr3">
+          <td colspan="6">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+          </td>
+        </tr>
+      </tfoot>
+    </table>
+  </body>
+</html>
